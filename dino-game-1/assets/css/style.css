@@ -1,0 +1,90 @@
+body{
+   background: #fafafa;
+}
+
+.dino{
+    width:60px;
+    height:60px;
+    background-color: green;
+    position:absolute;
+    bottom: 0;
+    background:url('../images/dino.png') no-repeat;
+    background-size: cover;
+}
+
+
+.cactus {
+    position:absolute;
+    width:50px;
+    height:50px;
+    bottom: 0;
+    background: url(../images/cactus.png) no-repeat;
+    background-size: cover;
+}
+
+.game-over{
+    text-align: center;
+    color:#666666;
+    margin-top:50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@keyframes slideRight{
+    from{
+        background-position: 70000%;
+    }
+    to {
+        background-position:0;
+    }
+}
+
+.background {
+    position:absolute;
+    bottom:0;
+    background-image: url('../images/background.png');
+    background-repeat: repeat-x;
+    animation: ;
+    width:100%;
+    height:200px;
+
+}
+
+
+.start{
+    position: absolute;
+    top:0;
+    background: #fafafa;
+    border:none;
+    font-size: 50px;
+    
+    color:#666666;
+}
+
+.play-again{
+    /* position: absolute;
+    top:0; */
+    background: #fafafa;
+    border:none;
+    font-size: 20px;
+    display: inline;
+    
+    color:#666666;
+
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.score{
+    margin: auto;
+    width:50%;
+    text-align:center;
+    padding-top:200px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#666666;
+    /* background: #000; */
+   
+}
